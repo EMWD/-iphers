@@ -9,6 +9,7 @@ void swapCHAR(char *x, char *y)
 	*x = *y;
 	*y = temp;
 }
+
 void swapINT(int *x, int *y)
 {
 	int temp = *x;
@@ -39,7 +40,7 @@ void goSort(char arr[],int arr2[], int n)
 
 //void goEncr(char arr[], int arr2[], string encr, int size)
 //{
-//	for (int i = 0; i < size*10; i++)
+//	for (int i = 0; i < size * 10; i++)
 //	{
 //		string encr += "1";
 //	}
